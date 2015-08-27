@@ -1,0 +1,274 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+*{margin:0px; padding:0px;}
+body{font-size:16px; line-height:none; font-weight:normal; font-family: 'OpenSans';}
+ul{list-style:none;}
+a{text-decoration:none !important;}
+a:hover{text-decoration:none !important;}
+a:focus{border:none !important; outline:none !important;}
+.clear{clear:both;}
+.slides{position:relative !important; width:100% !important; height:100% !important;}
+.left-menu{position:absolute; left:0px; right:0px; top:10px; z-index:9;}
+.toggle{padding:10px 14px; color:#fff; float:right; background:#222; opacity:0.8; font-size:18px;}
+
+.my-slider{width:100%; height:100%; }
+
+.logo-part{position:absolute; width:260px; height:100%;  text-align:center; z-index:999; left:0px; right:0px;  margin:0px auto;}
+.logo-part img{width:112%;}
+.logo-part h2{ font-size:64px;  font-family: 'Lato-Thin'; margin-top:87%;}
+.logo-part p{font-family: 'OpenSans-Bold'; color:#222; text-transform:uppercase; letter-spacing:2px; margin-top:10px;}
+.first-arrow{ left:0px; right:0px; bottom:100px; width:20px; margin:0px auto; display:block; color:#ccc; font-size:56px; position:absolute;}
+.first-arrow:hover{color:#fff;}
+.first-arrow:focus{color:#fff;}
+h1{ font-family: 'Lato-Thin' !important; font-size:63px !important;}
+h3{margin-top:6px !important; font-size:29px !important;}
+/*----------------------start menu-------------------------------*/
+
+.menu{ width:100%; height:auto; background:#444; opacity:0.7; background:rgba(50,47,47, 0.9);margin-top:-100px; position:relative; z-index:999;}
+
+.my-nav{width:60%; margin:0px auto;  height:101px;}
+.my-nav li{float:left; margin-left:3px; margin-right:3px; margin-top:17px;}
+.my-nav li a{display:block; padding:22px 11px;  color:#fff; font-family: 'OpenSans-Bold'; text-transform:uppercase; letter-spacing:1px;}
+.my-nav li a:hover{background:#000; color:#009d2c; border-radius:3px;}
+.activee{background:#000 !important; color:#009d2c !important; border-radius:3px;}
+.fixed {
+	position: fixed; 
+	top: 0; 
+	height: 70px;
+	overflow:hidden; 
+	z-index: 99999;
+	width:100%;
+	height:auto; background:rgba(50,47,47, 0.9);
+}
+
+/*--------------------------sttart first sectin--------------------------------*/
+.customer{text-align:center; padding-right:0px;}
+.customer h1{color:#009d2c; font-size:43px; padding:62px 0px 0px 0px; margin-bottom:0px; margin-top:43px;}
+.customer h3{text-transform:uppercase; color:#000; letter-spacing:3px; font-family: 'OpenSans-Bold'; font-size:27px;}
+.customer p{font-family: 'OpenSans'; font-size:14px !important; margin-top:10px; line-height:23px;}
+.customer a{display:block; margin-top:87px; width:140px; margin-bottom:20px; margin-left:auto; margin-right:auto; border-bottom:2px solid #009d2c; background:#009d2c; color:#eee; padding:5px 20px; text-transform:uppercase;  font-family: 'OpenSans-Bold';}
+.customer a:hover{color:#fff; border-bottom:2px solid #555;}
+.im{max-width:100% !important; padding:70px 0px; float:right;}
+.im-box{float:right !important; padding-top:50px;}
+
+/*------------------------seconf scetion---------------------------*/
+
+#home{background:url(../image/paralax1.jpg) 50% 0 fixed; height: auto; margin: 0 auto; width: 100%; position: relative;}
+
+.directly{text-align:center;}
+.directly h1{ color:#009d2c; font-size:43px; padding:62px 0px 0px 0px; color:#009d2c;}
+.directly h3{text-transform:uppercase; letter-spacing:3px; font-family: 'OpenSans-Bold'; color:#fff; font-size:27px;}
+.directly p{font-family: 'OpenSans'; font-size:14px !important; margin-top:10px; line-height:23px; color:#fff;}
+.directly a{display:block; margin-top:30px; width:200px; color:#fff; margin-bottom:20px; margin-left:auto; margin-right:auto;
+ border-bottom:2px solid #009d2c; padding:8px 20px; background:#009d2c; text-transform:uppercase;  font-family: 'OpenSans-Bold'; 
+ border-radius:2px;
+ }
+.im2{padding-top:54px;}
+.directly a:hover{color:#eee; border-bottom: 0px solid #444;   background: #222 none repeat}
+.box-img{max-width:100%;}
+.padding{padding-top:70px;}
+.box{margin-top:30px;}
+
+.automated{padding-bottom: 40px;}
+.automated-text-box{float:right !important; text-align:center; padding-top:80px !important}
+.automated-text-box h1{color:#009d2c; font-size:43px; padding:0px 0px 0px 0px; margin-bottom:0px; margin-top:27px;}
+.automated-text-box h3{text-transform:uppercase; color:#000; letter-spacing:3px; font-family: 'OpenSans-Bold'; font-size:27px;}
+.automated-text-box p{font-family: 'OpenSans'; font-size:14px !important; margin-top:17px; line-height:23px; width:100%;}
+.automated-text-box a{display:block; margin-top:30px; width:200px; color:#fff; margin-bottom:20px; margin-left:auto; margin-right:auto;
+ border-bottom:2px solid #009d2c; padding:8px 20px; background:#009d2c; text-transform:uppercase;  font-family: 'OpenSans-Bold'; 
+ border-radius:2px;
+ 
+}
+.automated-text-box a:hover{color:#fff; border-bottom:2px solid #222;background:#444;}
+
+#home1{background:url(../image/paralax2.jpg) 50% 0 fixed; height: auto; margin: 0 auto; width: 100%; position: relative; padding-bottom:50px;}
+
+
+.social-box{padding:50px 0px; float:right !important; text-align:center;}
+.social-box h1{color:#009d2c; font-size:43px;}
+.social-box h3{text-transform:uppercase; letter-spacing:3px; font-family: 'OpenSans-Bold'; color:#000; font-size:27px;}
+.social-box p{font-family: 'OpenSans'; font-size:14px !important; margin-top:10px; line-height:23px; color:#555;}
+.so ul li a{font-size:33px; color:#222;}
+.green{color:#009d2c !important;}
+.so ul li a:hover{color:#666 !important;}
+
+#home2{background:url(../image/paralax3.jpg) 50% 0 fixed; height: auto; margin: 0 auto; width: 100%; position: relative; padding:30px 0px; 
+background-size:cover}
+.it-works{position:relative; height:auto; text-align:center;}
+.it-works h1{color:#009d2c; font-size:43px; padding-top:44px;}
+.it-works h3{text-transform:uppercase; letter-spacing:0px; font-family: 'OpenSans-Bold'; color:#fff; font-size:27px;}
+.it-works p{font-family: 'OpenSans'; font-size:14px !important; margin-top:10px; line-height:23px; color:#fff;}
+
+.personal{padding:10px 0px; float:right !important;}
+.personal-text{padding:50px 0px; text-align:center;}
+.personal-text h1{color:#009d2c; font-size:43px;}
+.personal-text h3{text-transform:uppercase; letter-spacing:3px; font-family: 'OpenSans-Bold'; color:#000; font-size:27px;}
+.personal-text p{font-family: 'OpenSans'; font-size:14px !important; margin-top:10px; line-height:23px; color:#555;}
+.personal-text a{display:block; margin-top:30px; width:200px; color:#fff; margin-bottom:20px; margin-left:auto; margin-right:auto;
+ border-bottom:2px solid #009d2c; padding:8px 20px; background:#009d2c; text-transform:uppercase;  font-family: 'OpenSans-Bold'; 
+ border-radius:2px; }
+.personal-text a:hover{color:#fff; border-bottom:2px solid #222; background:#444;}
+.personal img{width:100% !important; height:100% !important;}
+
+#home3{background:url(../image/paralax4.jpg) 50% 0 fixed; height: auto; margin: 0 auto; width: 100%; position: relative; background-size:cover}
+
+.our{text-align:center; padding:40px 0px;}
+.our h1{color:#009d2c; font-size:43px;}
+.our h3{text-transform:uppercase; letter-spacing:3px; font-family: 'OpenSans-Bold'; color:#fff; font-size:27px;}
+.our p{font-family: 'OpenSans'; font-size:14px !important; margin-top:24px; line-height:23px; color:#fff;}
+.border-logo1{opacity:0.4;}
+
+.sign-up{background:#121212; text-align:center; padding:40px 0px 50px 0px;}
+.sign{ width:80%; margin:0px auto;}
+.sign-up h1{color:#fff; font-size:43px;}
+.sign-up h3{text-transform:uppercase; letter-spacing:3px; font-family: 'OpenSans-Bold'; color:#009d2c;  font-size:27px;}
+.sign-up p{color:#515151; text-align:right;}
+.text{ width:72%; position:relative; left:-27px;   padding-left:10px; margin-top:7px; background:#000;  color:#aaa; height:36px; border-radius:4px; border:1px solid #515151;}
+.send{ border:none; color:#009d2c; background:none; border-bottom:3px solid #009d2c;  font-family: 'OpenSans-Semibold'; font-size:18px; text-transform:uppercase; margin-left:-10px;}
+.send:hover{color:#eee; border-bottom:2px solid #eee;}
+
+.dd{padding:50px 0px;}
+
+/*--------------------------star footer-----------------------------------*/
+
+.footer{ background:#262526; /*text-align:center;*/ position:relative; padding-bottom:0px;}
+.round{position:absolute; top:-79px; left:0px; right:0px; margin:0px auto; z-index:0 !important;}
+.foot{padding:40px 0px;}
+.foot p{color:#515151; text-align:right !important;}
+.foot-logo{ background:url(../image/foot-logo.png) no-repeat; width:74px; display:inline-block; height:18px; }
+.social li img{opacity:0.2;}
+.social li{color:#515151;}
+.social li img:hover{opacity:0.7;}
+
+.second-arrow{left: 0px;right: 0px; padding-right:17px; top: -50px;z-index:999; width: 20px;margin: 0px auto;display: block;color: #CCC;font-size: 36px;position: absolute;}
+.second-arrow:hover{color:#fff;}
+
+
+
+/*================extra-hover========================*/
+
+.extra-hover{webkit-transition: all 1s ease; 
+   -moz-transition: all 1s ease;
+   -o-transition: all 1s ease; 
+   -ms-transition: all 1s ease;
+   transition: all 1s ease;
+width:100%; height:100%;}
+
+.extra-hover:hover{-webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1); 
+    -ms-transform:scale(1.1); 
+    -o-transform:scale(1.1); 
+     transform:scale(1.1);}
+
+
+
+/*---------------------extra css---------------------*/
+.customer-section{padding:0px 0px 40px ;}
+.market{padding:100px 0px;}
+.loyalty{padding:60px 0px 30px 0px;}
+.social{padding-bottom:30px; padding-top:30px}
+.list-inline {padding-top:0px !important;}
+.how{padding:52px 0px 80px 0px !important;}
+.database{padding:30px 0px;}
+.our-one{padding:50px 0px;}
+.border-logo{padding:20px 0px;}
+.border-logo1{padding:20px 0px;}
+.padding1{padding-top:21px;}
+.three-button{padding-top:20px; width:100% !important; margin:0px auto; display:block;}
+.three-button li{float:left; margin-left:0px; width:33%;}
+
+.lithree2 {font-family: "OpenSans-Bold";
+    background: #444 none repeat scroll 0% 0%;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 0px solid #444;
+    margin: 0px 4px;
+    padding: 10px 7px;
+    display: block;
+    border-radius: 0.2em;}
+	
+	.lithree {font-family: "OpenSans-Bold";
+    background: #009d2c none repeat scroll 0% 0%;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+   
+    margin: 0px 4px;
+    padding: 10px 7px !important;
+    display: block;
+    border-radius: 0.2em;
+	text-align:center;   margin:0px 4px; padding:6px 7px; display:block;
+	}
+.lithree:hover{color:#fff; border-bottom:2px solid #222;  background: #444 none repeat scroll 0% 0%; box-shadow:2px 2px 2px #444;}
+.lithree2:hover{color:#fff; border-bottom:2px solid #222;  background: #009d2c none repeat scroll 0% 0%; box-shadow:2px 2px 2px #444;}
+.sign1 a{background:#009D2C !important; border-radius:3px !important; box-shadow:4px 4px 4px #222;}
+.sign1 a:hover{color:#222 !important;}
+
+
+
+
+
+
+
+
+
+
+/*=========================responsive design=============================*/
+
+@media screen and (max-width:1920px){
+		.container{width:1580px !important;}
+		
+}	
+
+@media screen and (max-width:1366px){
+	.container{width:1270px !important;}
+}
+
+@media screen and (max-width:1200px){
+	.my-nav{width:68%;}
+	.container{width:80% !important;	
+}
+
+@media screen and (max-width:1058px){
+	.my-nav{width:80%;}	
+	.my-nav li a{display:block; padding:22px 12px;}
+	.logo-part h2{margin-top:40%;}
+	
+}
+
+@media screen and (max-width:891px){
+	.my-nav{width:90%;}	
+	.my-nav li a{padding:22px 7px;}
+	.logo-part h2{margin-top:20%;}
+	/*.first-arrow{bottom:-0px;}*/
+}
+
+@media screen and (max-width:768px){
+	img{display:block; margin:0px auto; text-align:center;}	
+	.my-nav{display:none;}	
+	.im-box{float:none !important;}
+	.box-img{width:60% !important;}
+	.im{float:none !important;}
+	.personal{float:none !important;}
+	.personal img{width:60% !important;}
+	.automated-text-box{float:none !important;}
+	.social-box{float:none !important;}
+	.border-logo1{width:60%;}
+	.border-logo{width:60%;}
+	.first-arrow{bottom:-100px;}
+	.three-button li{width:auto; float:none; margin-top:10px; text-align:center;}
+}
+
+@media screen and (max-width:560px){
+	.logo-part h2{margin-top:0%; font-size:40px;}
+	.logo-part img{width:50%;}
+	.first-arrow{bottom:-120px;}
+	.text{width:100%;}
+	h1{font-size:43px !important;}
+}
